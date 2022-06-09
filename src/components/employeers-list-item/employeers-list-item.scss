@@ -1,0 +1,57 @@
+@import url("../var.css");
+
+.employeers-list-item {
+  &-increase {
+    background-color: var(--main-bg-input-color);
+    padding: 5px 20px 5px;
+    color: var(--main-color);
+    list-style: none;
+    display: grid;
+    grid-template-columns: 300px 70px 100px;
+    column-gap: 70px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+  }
+  background-color: var(--main-bg-input-color);
+  padding: 5px 20px 5px;
+  color: var(--main-color);
+  list-style: none;
+  display: grid;
+  grid-template-columns: 300px 70px 100px;
+  column-gap: 70px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+.employeers-list-item-increase {
+  color: rgb(137, 7, 63);
+  font-weight: 700;
+}
+
+input.employeers-list-item {
+  width: 70px;
+  margin-bottom: 0px;
+  border: none;
+  background-color: var(--main-bg-input-color);
+  &-increase{
+    width: 70px;
+    margin-bottom: 0px;
+    border: none;
+    background-color: var(--main-bg-input-color);
+  }
+}
+.block-icon-btns {
+  display: inline;
+}
+.btns-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 30px);
+}
+
+.employeers-list-item button,
+.employeers-list-item-increase button {
+  width: 25px;
+  margin-bottom: 0px;
+  transition: all 0.3s;
+}

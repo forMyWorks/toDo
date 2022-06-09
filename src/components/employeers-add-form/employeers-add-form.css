@@ -1,0 +1,42 @@
+@import url("../var.css");
+
+.employeers-add-form {
+  background-color: var(--main-bg-color);
+  box-shadow: 10px 5px 5px rgb(145, 131, 131);
+  padding: 15px 20px 20px;
+  margin-top: 15px;
+  color: #fff;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  border-radius: 5px;
+  background-color: var(--main-bg-input-color);
+  font-size: 17px;
+  height: 30px;
+  width: 250px;
+  border: none;
+  margin-bottom: 10px;
+}
+input:invalid {
+  border: 3px solid red;
+}
+button {
+  border-radius: 5px;
+  background-color: var(--main-bg-input-color);
+  font-size: 17px;
+  height: 30px;
+  width: 100px;
+  border: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+button:hover {
+  transform: translate(2px, -2px);
+}
+h2 {
+  margin-top: 0;
+}

@@ -1,0 +1,11 @@
+@import url("../var.css");
+.app-search {
+  border-radius: 5px;
+  background-color: var(--main-bg-input-color);
+  font-size: 17px;
+  height: 30px;
+  width: 350px;
+  border: none;
+  margin-bottom: 10px;
+}
+
